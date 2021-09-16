@@ -18,8 +18,10 @@ header a{
 }
 
 .logo{
+    margin-bottom: 50px; 
     background-size:100px;
     transition: .3s;
+    height: 100%;
 }
 
 .logo:hover{
@@ -27,13 +29,21 @@ header a{
 }
 
 nav{
-    
     display:flex;
-    width:40%;
+    width: 70%;
+    justify-content:space-around;
+    margin-right:200px;
+    margin-top:20px;
+}
+
+.nav1{
+    display:flex;
+    width: 100%;
     justify-content:space-around;
 }
 
 nav a{
+    margin-top:10px;
     transition: .3s;
     color:#a9a9a9;
 }
@@ -42,3 +52,29 @@ nav a:hover{
     transform:translateY(10px);
 }
 
+.top-text{
+    display:flex;
+    justify-content: column;
+    margin-left:650px;
+}
+
+.top-text p{
+    align-items: center;
+    font-family: 'Bangers';
+    font-style: normal;
+    font-weight: 400;
+    margin-right:100px;
+    margin-top:60px;
+    font-size: 4.5rem;
+}
+
+.middle-text{
+    width:1400px;
+    margin-left:350px;
+}
+
+.button{
+    width:100%;
+    margin-top:300px;
+    margin-right: 500px;
+}
