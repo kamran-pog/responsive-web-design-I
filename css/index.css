@@ -69,12 +69,37 @@ nav a:hover{
 }
 
 .middle-text{
-    width:1400px;
+    width:1200px;
     margin-left:350px;
+    margin-top: 50px;
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
 }
 
 .button{
     width:100%;
     margin-top:300px;
     margin-right: 500px;
+}
+
+.top-middle{
+    display: flex;
+    /* justify-content: row; */
+    width:60%;
+}
+
+.bottom-text{
+    display:flex;
+    justify-content: row;
+}
+
+.bottom-img{
+    margin-left: 100px;
+    width:100%;
+}
+
+.top-middle p{
+    display: flex;
+    justify-content: space-between;
+    width:60%;
 }
