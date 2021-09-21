@@ -34,6 +34,7 @@ nav{
     justify-content:space-around;
     margin-right:200px;
     margin-top:20px;
+    border: 1px solid;
 }
 
 .nav1{
@@ -54,12 +55,14 @@ nav a:hover{
 
 .top-text{
     display:flex;
-    justify-content: column;
-    margin-left:650px;
+    justify-content: center; 
+    border: 1px solid black;
+    margin-left:200px;
+    margin-right:240px;
 }
 
 .top-text p{
-    align-items: center;
+    text-align: center;
     font-family: 'Bangers';
     font-style: normal;
     font-weight: 400;
@@ -68,10 +71,15 @@ nav a:hover{
     font-size: 4.5rem;
 }
 
+.bottom-img{
+    width:100%
+}
+
 .middle-text{
     width:1200px;
-    margin-left:350px;
+    margin-left:100px;
     margin-top: 50px;
+    margin-right:10px;
     border-bottom: 1px solid black;
     border-top: 1px solid black;
 }
@@ -84,7 +92,7 @@ nav a:hover{
 
 .top-middle{
     display: flex;
-    /* justify-content: row; */
+    justify-content: space-evenly;
     width:60%;
 }
 
@@ -92,7 +100,7 @@ nav a:hover{
     display:flex;
     justify-content: row;
 }
-
+ 
 .bottom-img{
     margin-left: 100px;
     width:100%;
@@ -100,6 +108,12 @@ nav a:hover{
 
 .top-middle p{
     display: flex;
-    justify-content: space-between;
-    width:60%;
+    justify-content: row;
+    width:80%;    
+}
+
+body{
+    border: 1px solid;
+    margin-left: 200px;
+    margin-right: 200px;
 }
