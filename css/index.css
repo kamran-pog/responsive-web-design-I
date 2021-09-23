@@ -60,6 +60,8 @@ nav a:hover{
     border: 1px solid black;
     margin-left:155px;
     width: 82%;
+    position: relative;
+    margin-right: 300px;
 }
 
 .top-text p{
@@ -67,8 +69,8 @@ nav a:hover{
     font-family: 'Bangers';
     font-style: normal;
     font-weight: 400;
-    margin-right: 200px;
-    margin-top:60px;
+    margin-right: 100px;
+    margin-top: 60px;
     font-size: 4.5rem;
 }
 
@@ -77,11 +79,10 @@ nav a:hover{
 }
 
 .middle-text{
-    width: 100%;
-    width:1200px;
-    margin-left:150px;
+    width: 81.5%;
+    margin-left:135px;
     margin-top: 100px;
-    margin-right:150px;
+    margin-right:200px;
     border-bottom: 1px solid black;
     border-top: 1px solid black;
     border: 1px solid;
@@ -95,6 +96,7 @@ nav a:hover{
 
 .top-middle{
     display: flex;
+    justify-content: center;
     width:60%;
 }
 
