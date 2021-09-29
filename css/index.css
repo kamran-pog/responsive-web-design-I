@@ -74,10 +74,6 @@ nav a:hover{
     font-size: 4.5rem;
 }
 
-.bottom-img{
-    width:100%
-}
-
 .middle-text{
     width: 81.5%;
     margin-left:135px;
@@ -96,26 +92,33 @@ nav a:hover{
 
 .top-middle{
     display: flex;
-    justify-content: center;
-    width:60%;
+	justify-content: space-between;
 }
 
 .bottom-text{
     display:flex;
 }
  
-.bottom-img{
-    margin-left: 100px;
-    width:100%;
-}
 
-.top-middle p{
-    display: flex;
-    width:80%;    
-}
 
 body{
     border: 1px solid;
     margin-left: 200px;
     margin-right: 200px;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Bangers', cursive;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+
+.bottom-img{
+    max-width: 100%;
+    margin-top:20px;
+    margin-bottom:20px;
+    margin-left: px;
+    border: 1px solid;
+    align-items: center;
+    padding-left: 160px;
 }
