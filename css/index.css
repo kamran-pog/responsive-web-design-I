@@ -30,12 +30,10 @@ header a{
 
 nav{
     display:flex;
-    width: 70%;
+    width: 65.5%;
     justify-content:space-around;
-    margin-right:115px;
+    margin-right:203px;
     margin-top:20px;
-    width: 82%;
-    border: 1px solid;
 }
 
 .nav1{
@@ -57,11 +55,10 @@ nav a:hover{
 .top-text{
     display:flex;
     justify-content: center; 
-    border: 1px solid black;
-    margin-left:155px;
-    width: 82%;
+    margin-left:255px;
+    width: 65.5%;
     position: relative;
-    margin-right: 300px;
+    margin-right: 00px;
 }
 
 .top-text p{
@@ -75,39 +72,36 @@ nav a:hover{
 }
 
 .middle-text{
-    width: 81.5%;
-    margin-left:135px;
+    width: 65.5%;
+    margin-left:255px;
     margin-top: 100px;
     margin-right:200px;
-    border-bottom: 1px solid black;
-    border-top: 1px solid black;
-    border: 1px solid;
-}
-
-.button{
-    width:100%;
-    margin-top:300px;
-    margin-right: 500px;
+    border-bottom: 2px solid black;
+    border-top: 2px solid black;
+    padding-left: 10px;
 }
 
 .top-middle{
     display: flex;
 	justify-content: space-between;
+    margin-top:40px;
 }
 
 .bottom-text{
-    display:flex;
+    display: flex;
+	justify-content: space-between;
+    margin-bottom:35px;
+    margin-top:50px;
 }
- 
-
 
 body{
-    border: 1px solid;
+    display: block;
     margin-left: 200px;
     margin-right: 200px;
+    padding-bottom: 470px;
 }
 
-h1, h2, h3, h4, h5, h6{
+h1, h2, h3, h4, h5, h6 {
     font-family: 'Bangers', cursive;
     letter-spacing: 1px;
     margin-bottom: 15px;
@@ -117,8 +111,25 @@ h1, h2, h3, h4, h5, h6{
     max-width: 100%;
     margin-top:20px;
     margin-bottom:20px;
-    margin-left: px;
-    border: 1px solid;
     align-items: center;
-    padding-left: 160px;
+    margin-left:60px;
+}
+
+html, body {
+    height: 100%;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+footer{
+    margin-left:255px;
+}
+
+.top-middle h4 {
+    position: sticky;
+    margin-top:-10px;
+}
+
+.bottom-text h4 {
+    position: sticky;
+    margin-top:-10px;
 }
