@@ -79,6 +79,7 @@ nav a:hover{
     border-bottom: 2px solid black;
     border-top: 2px solid black;
     padding-left: 10px;
+    border: 1px solid;
 }
 
 .top-middle{
@@ -89,6 +90,7 @@ nav a:hover{
 
 .bottom-text{
     display: flex;
+    flex-direction: row;
 	justify-content: space-between;
     margin-bottom:35px;
     margin-top:50px;
@@ -108,11 +110,13 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .bottom-img{
-    max-width: 100%;
+    /* max-width: 100%; */
+    width:100%;
     margin-top:20px;
     margin-bottom:20px;
     align-items: center;
     margin-left:60px;
+
 }
 
 html, body {
@@ -132,4 +136,9 @@ footer{
 .bottom-text h4 {
     position: sticky;
     margin-top:-10px;
+}
+
+.paragraph-class{
+    display:flex;
+    flex-direction: row;
 }
