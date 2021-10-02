@@ -90,7 +90,6 @@ nav a:hover{
 
 .bottom-text{
     display: flex;
-    flex-direction: row;
 	justify-content: space-between;
     margin-bottom:35px;
     margin-top:50px;
@@ -110,13 +109,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .bottom-img{
-    /* max-width: 100%; */
     width:100%;
     margin-top:20px;
     margin-bottom:20px;
     align-items: center;
     margin-left:60px;
-
 }
 
 html, body {
@@ -130,7 +127,7 @@ footer{
 
 .top-middle h4 {
     position: sticky;
-    margin-top:-10px;
+    margin-top:-10px; 
 }
 
 .bottom-text h4 {
@@ -142,3 +139,4 @@ footer{
     display:flex;
     flex-direction: row;
 }
+
