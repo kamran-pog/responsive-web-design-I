@@ -30,9 +30,10 @@ header a{
 
 nav{
     display:flex;
-    width: 65.5%;
+    width: 67%;
     justify-content:space-around;
-    margin-right:203px;
+    margin-right:193px;
+    margin-left:33px;
     margin-top:20px;
 }
 
@@ -79,7 +80,6 @@ nav a:hover{
     border-bottom: 2px solid black;
     border-top: 2px solid black;
     padding-left: 10px;
-    border: 1px solid;
 }
 
 .top-middle{
