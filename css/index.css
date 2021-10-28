@@ -35,6 +35,7 @@ nav{
     margin-right:193px;
     margin-left:33px;
     margin-top:20px;
+    border: solid 1px;
 }
 
 .nav1{
@@ -60,6 +61,7 @@ nav a:hover{
     width: 65.5%;
     position: relative;
     margin-right: 00px;
+    border: solid 1px;
 }
 
 .top-text p{
@@ -80,6 +82,7 @@ nav a:hover{
     border-bottom: 2px solid black;
     border-top: 2px solid black;
     padding-left: 10px;
+    border: solid 1px;
 }
 
 .top-middle{
@@ -89,6 +92,7 @@ nav a:hover{
 }
 
 .bottom-text{
+    width:100%;
     display: flex;
 	justify-content: space-between;
     margin-bottom:35px;
@@ -109,11 +113,14 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .bottom-img{
-    width:100%;
-    margin-top:20px;
-    margin-bottom:20px;
+    position: relative;
+    max-width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
     align-items: center;
-    margin-left:60px;
+    padding-right: 10px;
+    margin-left: -10px;
+    border: solid 1px;
 }
 
 html, body {
@@ -138,5 +145,34 @@ footer{
 .paragraph-class{
     display:flex;
     flex-direction: row;
+}
+
+
+@media (max-width: 1024px) {
+	
+	.nav {
+		display: flex;
+		flex-direction: column-reverse;
+	}
+
+	.nav div {
+		display: flex;
+		width: 100%;
+		justify-content: space-around;
+		margin: 40px;
+	}
+	.nav .img {
+		display: flex;
+		margin: 5px;
+		justify-content: center;
+	}
+	.top-middle div {
+		justify-items: center;
+		margin: 50px;
+	}
+
+	.top-middle img {
+		display: none;
+	}
 }
 
