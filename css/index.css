@@ -30,12 +30,11 @@ header a{
 
 nav{
     display:flex;
-    width: 67%;
+    width: 65.5%;
     justify-content:space-around;
-    margin-right:193px;
+    margin-right:215px;
     margin-left:33px;
     margin-top:20px;
-    border: solid 1px;
 }
 
 .nav1{
@@ -60,8 +59,6 @@ nav a:hover{
     margin-left:255px;
     width: 65.5%;
     position: relative;
-    margin-right: 00px;
-    border: solid 1px;
 }
 
 .top-text p{
@@ -76,18 +73,21 @@ nav a:hover{
 
 .middle-text{
     width: 65.5%;
+    font-size:15px;
     margin-left:255px;
     margin-top: 100px;
-    margin-right:200px;
+    margin-right:100px;
     border-bottom: 2px solid black;
     border-top: 2px solid black;
-    padding-left: 10px;
-    border: solid 1px;
+    padding-left: -10px;
+    padding-right: -10px;
 }
 
 .top-middle{
     display: flex;
 	justify-content: space-between;
+    margin-left:10px;
+    margin-right:10px;
     margin-top:40px;
 }
 
@@ -97,6 +97,8 @@ nav a:hover{
 	justify-content: space-between;
     margin-bottom:35px;
     margin-top:50px;
+    margin-left:10px;
+    margin-right:10px;
 }
 
 body{
@@ -115,12 +117,10 @@ h1, h2, h3, h4, h5, h6 {
 .bottom-img{
     position: relative;
     max-width: 100%;
+    width:1100px;
     margin-top: 20px;
     margin-bottom: 20px;
     align-items: center;
-    padding-right: 10px;
-    margin-left: -10px;
-    border: solid 1px;
 }
 
 html, body {
@@ -145,6 +145,10 @@ footer{
 .paragraph-class{
     display:flex;
     flex-direction: row;
+}
+
+.footer h4{
+    justify-content: center;
 }
 
 
