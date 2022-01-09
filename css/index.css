@@ -154,3 +154,21 @@ footer {
 	margin-bottom: 40px;
 	margin-top: 40px;
 }
+
+@media (max-width: 1020px) {
+
+	.nav div {
+		display: flex;
+		width: 100%;
+		justify-content: space-around;
+		margin: 40px;
+	}
+	.nav .img {
+		display: flex;
+		margin: 5px;
+		justify-content: center;
+	}
+	.nav {
+		display: flex;
+		flex-direction: column-reverse;
+	}
