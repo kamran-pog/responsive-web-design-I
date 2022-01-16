@@ -184,3 +184,26 @@ footer {
 	}
 }
 	/* End of tablet responsiveness */
+
+	/* Start of Moblie styles */
+
+	@media (max-width: 500px) {
+
+		body {
+			margin: 0 auto;
+		}
+		.nav div {
+			display: flex;
+			margin: 0 auto;
+			flex-direction: column;
+		}
+	
+		.nav div a {
+			display: flex;
+			border-top: 1px solid;
+			border-bottom: 1px solid;
+			justify-content: center;
+			
+		}
+
+	}
