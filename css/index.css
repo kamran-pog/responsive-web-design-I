@@ -205,5 +205,32 @@ footer {
 			justify-content: center;
 			
 		}
+		
+		body .top-paragraph {
+		margin: 30px;
+		}
+		.top-paragraph {
+		flex-direction: columN;
+		align-items: center;
+		}
+		body .middle-img {
+		margin: 30px;
+		}
 
+		.middle-img {
+		width: 87%;
+		}
+		body .bottom-paragraph {
+		margin: 30px;
+		}
+		.bottom-paragraph {
+		flex-direction: column;
+		align-items: center;
+		}
+
+		body .contact {
+		margin: 30px;
+		}
 	}
+
+}
